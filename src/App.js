@@ -1,4 +1,5 @@
 import './App.css';
+import Comingsoon from './components/comingsoon/comingsoon.js';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           www.chipmaglore.org
         </a>
       </header> 
+      <Comingsoon />
     </div>
   );
 }
