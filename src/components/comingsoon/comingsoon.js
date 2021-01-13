@@ -19,7 +19,7 @@ function comingsoon(props) {
             href="https://chipmaglore.org"
             target="_blank"
             rel="noopener noreferrer">
-            www.chipmaglore.org
+            www.chikkamagaluru.org
           </a>
 
           <Form>
