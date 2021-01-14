@@ -2,6 +2,47 @@
     text-align: center;
   }
   
+  img {
+    padding: 10px;
+  }
+
+  Form {
+    padding: 20px;
+  }
+  
+.copyright {
+  font-size: medium;
+}
+  .social-container {
+    padding: 10px 50px;
+  }
+
+  a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+  }
+
+  a.social:hover {
+    transform: translateY(-2px);
+  }
+
+  a.youtube {
+    color: #eb3223;
+  }
+  
+  a.facebook {
+    color: #4968ad;
+  }
+  
+  a.twitter {
+    color: #49a1eb;
+  }
+  
+  a.instagram {
+    color:  #FEC95F;
+  }
+
   .title {
     grid-area: title;
     display: grid;
@@ -12,11 +53,7 @@
     align-items: center;
     justify-content: center;
   }
-  
-  body{
-    background-color: #282c34;
-  }
-  
+
   .App-logo {
     height: 40vmin;
     pointer-events: none;
