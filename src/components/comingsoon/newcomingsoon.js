@@ -5,7 +5,7 @@ import { Form, Col, Container, Row } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Alert from 'react-bootstrap/Alert';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import desktopImage from './images/chikkamagaluru-desktop.jpg';
+import desktopImage from './images/chikkamagaluru-desktop1.jpg';
 import mobileImage from './images/chikkamagaluru-mobile.jpg';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -66,10 +66,10 @@ const App = () => {
         </Container>
 
         <Container>
-          <Alert variant="danger ">
+          <Alert variant="danger" >
             We are almost there! If you wanat to get notified when the website goes
             live subscribe to our mailing list!
-                    </Alert>
+          </Alert>
         </Container>
       </div>
     </div>

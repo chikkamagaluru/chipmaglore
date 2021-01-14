@@ -3,6 +3,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
+    
+
 }
 
 .App-content {
@@ -12,6 +14,7 @@
     justify-content: flex-start;
     align-items: center;
     padding: 40px;
+    
 }
 
 @media (min-width: 650px ) {
@@ -23,12 +26,13 @@
         align-items: flex-end;
         justify-content: x;
         align-items: stretch;
+        
     }
 }
 
 
 Form {
-    padding: 20px;
+    padding: 5px;
   }
   
   .copyright {
@@ -68,3 +72,4 @@ Form {
   p {
     color: white;
   }
+
