@@ -1,78 +1,77 @@
 .App {
-    text-align: center;
-  }
-  
-  img {
-    padding: 10px;
-  }
+  text-align: center;
+}
 
-  Form {
-    padding: 20px;
-  }
-  
+img {
+  padding: 10px;
+}
+
+Form {
+  padding: 20px;
+}
+
 .copyright {
   font-size: medium;
 }
-  .social-container {
-    padding: 10px 50px;
-  }
 
-  a.social {
-    margin: 0 1rem;
-    transition: transform 250ms;
-    display: inline-block;
-  }
+.social-container {
+  padding: 10px 50px;
+}
 
-  a.social:hover {
-    transform: translateY(-2px);
-  }
+a.social {
+  margin: 0 0.5rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
 
-  a.youtube {
-    color: #eb3223;
-  }
-  
-  a.facebook {
-    color: #4968ad;
-  }
-  
-  a.twitter {
-    color: #49a1eb;
-  }
-  
-  a.instagram {
-    color:  #FEC95F;
-  }
+a.social:hover {
+  transform: translateY(-2px);
+}
 
-  .title {
-    grid-area: title;
-    display: grid;
-    grid-gap: 20px;
-    width: 100%;
-    max-width: 700px;
-    grid-template-columns: 1fr auto 1fr;
-    align-items: center;
-    justify-content: center;
-  }
+a.youtube {
+  color: #eb3223;
+}
 
-  .App-logo {
-    height: 40vmin;
-    pointer-events: none;
-  }
-  
-  .Comingsoon {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-  }
-  
-  .App-link {
-    color: #61dafb;
-    margin-bottom: 20px;
-  }
-  
-  
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: #FEC95F;
+}
+
+.title {
+  grid-area: title;
+  display: grid;
+  grid-gap: 20px;
+  width: 100%;
+  max-width: 700px;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.Comingsoon {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+  margin-bottom: 20px;
+}
