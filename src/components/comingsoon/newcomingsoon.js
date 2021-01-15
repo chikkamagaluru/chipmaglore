@@ -1,8 +1,8 @@
 
 import React from 'react';
 import './newcomingsoon.css';
-import { Form, Col, Container, Row } from 'react-bootstrap';
-import Button from 'react-bootstrap/Button';
+import Emailform from '../form/form'
+import { Container, Row } from 'react-bootstrap';
 import Alert from 'react-bootstrap/Alert';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import desktopImage from './images/chikkamagaluru-desktop.jpg';
@@ -32,20 +32,7 @@ const App = () => {
         </Container>
 
         <Container>
-          <Form>
-            <Form.Row>
-              <Col>
-                <Form.Control md="auto" size="lg" placeholder="Email Address" />
-              </Col>
-
-              <Col xs="auto">
-                <Button size="lg" md="auto" type="submit" className="mb-2">
-                    Notify Me !
-                </Button>
-              </Col>
-
-            </Form.Row>
-          </Form>
+          <Emailform />
         </Container>
 
         <Container>
